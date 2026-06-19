@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📋 ANVIFLOW - Payslip Management System
 
 **ANVIFLOW** is a complete, production-ready payslip management system for **Anvictol Integrated Services Nigeria Limited**.
@@ -361,3 +362,7 @@ For support or customization:
 Start with [QUICKSTART.md](./QUICKSTART.md) for a quick 5-minute setup, or dive deeper with the other guides.
 
 **Happy payslip processing!** 🎉
+=======
+# anviflow
+This is a web application that generate pay slip for small scale businesses. It is a light weight app
+>>>>>>> afdec9ced6ebf4cbdfcc39a83ad0b274de71e21d
