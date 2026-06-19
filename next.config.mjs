@@ -10,6 +10,7 @@ const nextConfig = {
     root: '.',
   },
   serverExternalPackages: ['pg', 'pg-native'],
+  allowedDevOrigins: ['192.168.220.1'],
 }
 
 export default nextConfig
