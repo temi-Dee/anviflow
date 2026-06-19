@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "cd c:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow && pnpm install && pnpm dev",
+			"isBackground": true
+		}
+	]
+}

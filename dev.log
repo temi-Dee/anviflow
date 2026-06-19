@@ -1,0 +1,1682 @@
+
+> my-project@0.1.0 dev C:\Users\TREASURE\Desktop\payslipflow\anviflow
+> next dev
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.220.1:3000
+- Environments: .env.local
+Γ£ô Ready in 1803ms
+ΓÜá turbopack.root should be absolute, using: C:\Users\TREASURE\Desktop\payslipflow\anviflow
+
+Γùï Compiling /sign-in ...
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Γ£ô Finished writing to filesystem cache in 25.0s
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+Γ£ô Finished filesystem cache database compaction in 52s
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+
+<--- Last few GCs --->
+
+[16332:0000021D0315A000]     1792 ms: Scavenge 5.7 (7.6) -> 4.9 (9.6) MB, pooled: 0 MB, 2.97 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[16332:0000021D0315A000]     3951 ms: Scavenge 7.6 (10.7) -> 6.7 (10.9) MB, pooled: 0 MB, 1.64 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[16332:0000021D0315A000]     5289 ms: Scavenge 9.0 (12.4) -> 8.1 (16.9) MB, pooled: 0 MB, 4.30 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 5: 00007FF6E49C20FE v8::SnapshotCreator::GetIsolate+53054
+ 6: 00007FF6E4C78D53 v8::Context::GetIsolate+401123
+ 7: 00007FF6E4C78C21 v8::Context::GetIsolate+400817
+ 8: 00007FF6E4C7906F v8::Context::GetIsolate+401919
+ 9: 00007FF6E4CA4812 v8::Context::GetIsolate+580002
+10: 00007FF6E4C8F351 v8::Context::GetIsolate+492769
+11: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+12: 00007FF6E4C88244 v8::Context::GetIsolate+463828
+13: 00007FF6E4C88DF1 v8::Context::GetIsolate+466817
+14: 00007FF6E4C8F048 v8::Context::GetIsolate+491992
+15: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+16: 00007FF6E4C8B5F6 v8::Context::GetIsolate+477062
+17: 00007FF6E4C8F4EA v8::Context::GetIsolate+493178
+18: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+19: 00007FF6E4C8B5F6 v8::Context::GetIsolate+477062
+20: 00007FF6E4C8EEA2 v8::Context::GetIsolate+491570
+21: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+22: 00007FF6E4C8B6AD v8::Context::GetIsolate+477245
+23: 00007FF6E4C8E7CA v8::Context::GetIsolate+489818
+24: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+25: 00007FF6E4C91865 v8::Context::GetIsolate+502261
+26: 00007FF6E4C88697 v8::Context::GetIsolate+464935
+27: 00007FF6E4C88554 v8::Context::GetIsolate+464612
+28: 00007FF6E4C8E79A v8::Context::GetIsolate+489770
+29: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+30: 00007FF6E4C91865 v8::Context::GetIsolate+502261
+31: 00007FF6E4C88697 v8::Context::GetIsolate+464935
+32: 00007FF6E4C88554 v8::Context::GetIsolate+464612
+33: 00007FF6E4C8E79A v8::Context::GetIsolate+489770
+34: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+35: 00007FF6E4C8ECEF v8::Context::GetIsolate+491135
+36: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+37: 00007FF6E4C91865 v8::Context::GetIsolate+502261
+38: 00007FF6E4C88697 v8::Context::GetIsolate+464935
+39: 00007FF6E4C88554 v8::Context::GetIsolate+464612
+40: 00007FF6E4C8E79A v8::Context::GetIsolate+489770
+41: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+42: 00007FF6E4C8E8A7 v8::Context::GetIsolate+490039
+43: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+44: 00007FF6E4C8E8E7 v8::Context::GetIsolate+490103
+45: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+46: 00007FF6E4C91865 v8::Context::GetIsolate+502261
+47: 00007FF6E4C88697 v8::Context::GetIsolate+464935
+48: 00007FF6E4C88554 v8::Context::GetIsolate+464612
+49: 00007FF6E4C8E79A v8::Context::GetIsolate+489770
+50: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+51: 00007FF6E4C8E8A7 v8::Context::GetIsolate+490039
+52: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+53: 00007FF6E4C8E8E7 v8::Context::GetIsolate+490103
+54: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+55: 00007FF6E4C8E8E7 v8::Context::GetIsolate+490103
+56: 00007FF6E4C880AA v8::Context::GetIsolate+463418
+57: 00007FF6E4C91865 v8::Context::GetIsolate+502261
+58: 00007FF6E4C86362 v8::Context::GetIsolate+455922
+59: 00007FF6E4C85FB8 v8::Context::GetIsolate+454984
+60: 00007FF6E4C75CC8 v8::Context::GetIsolate+388696
+61: 00007FF6E4E790D8 v8::SharedValueConveyor::SharedValueConveyor+31448
+62: 00007FF6E4E72168 v8::SharedValueConveyor::SharedValueConveyor+2920
+63: 00007FF6E4E75829 v8::SharedValueConveyor::SharedValueConveyor+16937
+64: 00007FF6E4E7518A v8::SharedValueConveyor::SharedValueConveyor+15242
+65: 00007FF6E4A359B7 v8::internal::Version::GetString+472423
+66: 00007FF684FAD5BA 
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E421C24F 
+ 3: 00007FF6E54A7D36 
+ 4: 00007FF6E4F12B03 
+ 5: 00007FF6E4EFF8B6 
+ 6: 00007FF6E4D49D70 
+ 7: 00007FF6E4D115BA 
+ 8: 00007FF6E4D11BD0 
+ 9: 00007FF6E4D118D5 
+10: 00007FF6E4D00F3C 
+11: 00007FF6E4D00528 
+12: 00007FF6E4D57B02 
+13: 00007FF6E4DBC3EF 
+14: 00007FF6E49E0D65 
+15: 00007FF6E4F08791 
+16: 00007FF6E4376BCD 
+17: 00007FF6E416AB05 
+18: 00007FF6E416F81D 
+19: 00007FF6E4164FB5 
+20: 00007FF6E439758E 
+21: 00007FF6E5B034EE 
+22: 00007FF9013554E0 BaseThreadInitThunk+16
+23: 00007FF902A6485B RtlUserThreadStart+43
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 5: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+ 6: 00007FF6E4D01D73 v8::FixedArray::Length+131171
+ 7: 00007FF6E4D52E35 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+68645
+ 8: 00007FF6E4D436C2 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5298
+ 9: 00007FF6E4D3F2B5 v8::CpuProfileNode::GetScriptResourceNameStr+190789
+10: 00007FF6E45D2AED BIO_ssl_shutdown+189
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+
+
+
+
+<--- Last few GCs --->
+<--- Last few GCs --->
+
+<--- Last few GCs --->
+
+<--- Last few GCs --->
+
+
+
+<--- Last few GCs --->
+
+<--- Last few GCs --->
+
+<--- Last few GCs --->
+[34556:000001287AC0A000]     2844 ms: Scavenge 5.7 (7.7) -> 4.9 (9.4) MB, pooled: 0 MB, 2.65 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[16700:0000019A6BFF9000]      725 ms: Scavenge 5.7 (7.7) -> 4.9 (9.6) MB, pooled: 0 MB, 1.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[27956:000001C3A5F38000]      299 ms: Scavenge 2.8 (3.5) -> 2.4 (4.5) MB, pooled: 0 MB, 2.09 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[18964:0000029B62D98000]      479 ms: Scavenge 5.7 (7.7) -> 4.9 (9.9) MB, pooled: 0 MB, 1.37 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+
+[19844:000001338D37A000]     3122 ms: Scavenge 5.7 (7.7) -> 4.9 (9.4) MB, pooled: 0 MB, 2.40 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+[16700:0000019A6BFF9000]     1148 ms: Scavenge 7.6 (10.7) -> 6.7 (11.2) MB, pooled: 0 MB, 1.77 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[18964:0000029B62D98000]      805 ms: Scavenge 7.6 (10.7) -> 6.7 (11.2) MB, pooled: 0 MB, 1.92 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- Last few GCs --->
+<--- Last few GCs --->
+[19636:000002AFB82AA000]      841 ms: Scavenge 5.7 (7.6) -> 4.9 (9.6) MB, pooled: 0 MB, 1.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[28864:0000024AC535A000]     3160 ms: Scavenge 5.7 (7.7) -> 5.7 (10.4) MB, pooled: 0 MB, 1.68 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[16700:0000019A6BFF9000]     1487 ms: Scavenge 9.0 (12.4) -> 8.2 (17.2) MB, pooled: 0 MB, 1.68 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+[18964:0000029B62D98000]     1148 ms: Scavenge 9.0 (12.4) -> 8.2 (17.2) MB, pooled: 0 MB, 1.78 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+[19636:000002AFB82AA000]     1835 ms: Scavenge 7.6 (10.7) -> 6.6 (10.9) MB, pooled: 0 MB, 4.30 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[28864:0000024AC535A000]     4549 ms: Scavenge 8.4 (11.5) -> 7.4 (11.7) MB, pooled: 0 MB, 12.77 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+<--- JS stacktrace --->
+<--- JS stacktrace --->
+
+[46020:000002C01CB8A000]     2875 ms: Scavenge 5.7 (7.6) -> 4.9 (9.9) MB, pooled: 0 MB, 467.34 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[30048:0000011D555FA000]     1106 ms: Scavenge 5.7 (7.6) -> 4.9 (9.9) MB, pooled: 0 MB, 1.28 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[19636:000002AFB82AA000]     4205 ms: Scavenge 9.0 (12.4) -> 8.2 (16.7) MB, pooled: 0 MB, 1.93 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- JS stacktrace --->
+
+
+
+
+
+
+[30048:0000011D555FA000]     4219 ms: Scavenge 7.6 (10.7) -> 6.7 (10.9) MB, pooled: 0 MB, 2.10 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+
+<--- JS stacktrace --->
+FATAL ERROR: Zone Allocation failed - process out of memory
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+<--- JS stacktrace --->
+
+[30048:0000011D555FA000]     6027 ms: Scavenge 9.0 (12.4) -> 8.2 (16.9) MB, pooled: 0 MB, 2.63 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+<--- JS stacktrace --->
+
+----- Native stack trace -----
+----- Native stack trace -----
+
+<--- JS stacktrace --->
+
+<--- JS stacktrace --->
+----- Native stack trace -----
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+
+
+
+
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+----- Native stack trace -----
+FATAL ERROR: Zone Allocation failed - process out of memory
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+<--- JS stacktrace --->
+----- Native stack trace -----
+
+
+----- Native stack trace -----
+----- Native stack trace -----
+
+
+
+
+
+
+
+
+<--- Last few GCs --->
+<--- Last few GCs --->
+<--- Last few GCs --->
+
+<--- Last few GCs --->
+
+
+
+<--- Last few GCs --->
+
+[16700:0000019A6DCCE000]     2168 ms: Scavenge 3.2 (5.0) -> 2.9 (5.5) MB, pooled: 0 MB, 1.81 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[24468:00000181FD8E0000]      729 ms: Scavenge 3.2 (4.7) -> 2.9 (5.2) MB, pooled: 0 MB, 2.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[30048:0000011D555FA000]     1106 ms: Scavenge 5.7 (7.6) -> 4.9 (9.9) MB, pooled: 0 MB, 1.28 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[16700:0000019A6DCCE000]     3130 ms: Scavenge 4.3 (6.0) -> 4.0 (8.5) MB, pooled: 0 MB, 1.44 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[19636:000002AFB82AA000]      841 ms: Scavenge 5.7 (7.6) -> 4.9 (9.6) MB, pooled: 0 MB, 1.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- JS stacktrace --->
+
+[30048:0000011D555FA000]     4219 ms: Scavenge 7.6 (10.7) -> 6.7 (10.9) MB, pooled: 0 MB, 2.10 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[19636:000002AFB82AA000]     1835 ms: Scavenge 7.6 (10.7) -> 6.6 (10.9) MB, pooled: 0 MB, 4.30 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[30048:0000011D555FA000]     6027 ms: Scavenge 9.0 (12.4) -> 8.2 (16.9) MB, pooled: 0 MB, 2.63 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+[19636:000002AFB82AA000]     4205 ms: Scavenge 9.0 (12.4) -> 8.2 (16.7) MB, pooled: 0 MB, 1.93 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+<--- JS stacktrace --->
+
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+
+
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+<--- JS stacktrace --->
+<--- JS stacktrace --->
+----- Native stack trace -----
+
+
+
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+ 1: 00007FF6E4336CCB 
+----- Native stack trace -----
+
+ 2: 00007FF6E42A0DE8 
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+ 3: 00007FF6E4F12AB1 
+ 1: 00007FF6E4336CCB 
+----- Native stack trace -----
+ 4: 00007FF6E4EFF8B6 
+ 2: 00007FF6E42A0DE8 
+
+ 5: 00007FF6E4D49D70 
+ 3: 00007FF6E4F12AB1 
+ 6: 00007FF6E4D1D349 
+ 4: 00007FF6E4EFF8B6 
+ 7: 00007FF6E4D2E889 
+ 5: 00007FF6E4D49D70 
+ 8: 00007FF6E4D25802 
+ 6: 00007FF6E4D1D349 
+ 9: 00007FF6E4D2BF59 
+ 7: 00007FF6E4D2E889 
+10: 00007FF6E4D302AE 
+ 8: 00007FF6E4D25802 
+11: 00007FF6E5103DBF 
+ 9: 00007FF6E4D2BF59 
+12: 00007FF6E5103B96 
+10: 00007FF6E4D304D8 
+13: 00007FF6E4D247B4 
+11: 00007FF6E5104145 
+14: 00007FF6E4D25F87 
+12: 00007FF6E421EB39 
+15: 00007FF6E4D24E13 
+ 1: 00007FF6E4336CCB 
+13: 00007FF6E439758E 
+
+16: 00007FF6E4D24034 
+
+ 2: 00007FF6E42A0DE8 
+
+14: 00007FF6E5B034EE 
+<--- Last few GCs --->
+17: 00007FF6E4D50928 
+<--- Last few GCs --->
+ 3: 00007FF6E4F12AB1 
+
+15: 00007FF9013554E0 
+
+18: 00007FF6E4D52EA1 
+
+ 4: 00007FF6E4EFF8B6 
+16: 00007FF902A6485B 
+[26464:000001AB47418000]      388 ms: Scavenge 5.7 (7.6) -> 5.6 (10.6) MB, pooled: 0 MB, 1.24 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+#
+19: 00007FF6E4D436C2 
+[28120:00000136869BA000]     2167 ms: Scavenge 5.7 (7.6) -> 4.9 (9.9) MB, pooled: 0 MB, 3.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+ 5: 00007FF6E4D49D70 
+# Fatal error in , line 0
+[26464:000001AB47418000]      694 ms: Scavenge 8.4 (11.5) -> 7.4 (11.7) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+20: 00007FF6E4D3F2B5 
+[28120:00000136869BA000]     4025 ms: Scavenge 7.6 (10.7) -> 6.6 (10.9) MB, pooled: 0 MB, 2.24 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+ 6: 00007FF6E4D1D349 
+# Check failed: (result.ptr) != nullptr.
+[26464:000001AB47418000]     1147 ms: Scavenge 9.7 (13.0) -> 8.9 (17.5) MB, pooled: 0 MB, 3.20 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+21: 00007FF6E45D2AED 
+
+ 7: 00007FF6E4D2E889 
+#
+
+ 8: 00007FF6E4D25802 
+#
+ 1: 00007FF6E4336CCB 
+
+ 9: 00007FF6E4D2BF59 
+
+#
+ 2: 00007FF6E42A0DE8 
+ 1: 00007FF6E4336CCB 
+<--- JS stacktrace --->
+10: 00007FF6E4D304D8 
+<--- JS stacktrace --->
+#FailureMessage Object: 0000005F197FA0E0
+ 3: 00007FF6E4F12AB1 
+ 2: 00007FF6E42A0DE8 
+
+11: 00007FF6E5104145 
+
+----- Native stack trace -----
+ 4: 00007FF6E4EFF8B6 
+ 3: 00007FF6E4F12AB1 
+FATAL ERROR: Zone Allocation failed - process out of memory
+12: 00007FF6E421EB39 
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+
+ 5: 00007FF6E49C20FE 
+ 4: 00007FF6E4EFF8B6 
+----- Native stack trace -----
+13: 00007FF6E439758E 
+----- Native stack trace -----
+ 6: 00007FF6E469C896 
+ 5: 00007FF6E4D49D70 
+
+14: 00007FF6E5B034EE 
+
+ 7: 00007FF6E4A6A18F 
+ 6: 00007FF6E4D27290 
+15: 00007FF9013554E0 
+ 8: 00007FF6E4A6CA2D 
+ 7: 00007FF6E4D50928 
+16: 00007FF902A6485B 
+ 9: 00007FF6E4A6EBA5 
+ 8: 00007FF6E4D52EA1 
+10: 00007FF6E4A5914C 
+ 9: 00007FF6E4D436C2 
+11: 00007FF6E4A3E61D 
+10: 00007FF6E4D3F2B5 
+ 1: 00007FF6E4336CCB 
+11: 00007FF6E45D2AED 
+ 2: 00007FF6E42A0DE8 
+ 3: 00007FF6E4F12AB1 
+ 4: 00007FF6E4EFF8B6 
+12: 00007FF6E4A3EA8F 
+ 5: 00007FF6E49C20FE 
+13: 00007FF6E4A3F10A 
+ 6: 00007FF6E4624DFC 
+ 7: 00007FF6E4624EB7 
+ 8: 00007FF6E4A6DBA7 
+ 9: 00007FF6E4A6DFE9 
+14: 00007FF6E4A400FE 
+10: 00007FF6E4A5C837 
+15: 00007FF6E4A3FC0E 
+11: 00007FF6E4A5B362 
+16: 00007FF6E4A3F670 
+12: 00007FF6E4A5A799 
+17: 00007FF6E4A1C742 
+13: 00007FF6E4A5C291 
+18: 00007FF684FAD5BA 
+14: 00007FF6E4A5B296 
+15: 00007FF6E4A5A799 
+16: 00007FF6E4A5A918 
+17: 00007FF6E4A5C291 
+18: 00007FF6E4A5B296 
+19: 00007FF6E4A5E944 
+20: 00007FF6E4A5A891 
+21: 00007FF6E4A5A799 
+22: 00007FF6E4A5ADC2 
+23: 00007FF6E4A5C291 
+24: 00007FF6E4A5B296 
+25: 00007FF6E4A5A799 
+26: 00007FF6E4A5A799 
+27: 00007FF6E4A5C291 
+28: 00007FF6E4A5B296 
+29: 00007FF6E4A590B4 
+30: 00007FF6E4A3E61D 
+31: 00007FF6E4A3EA8F 
+32: 00007FF6E4A3F10A 
+33: 00007FF6E4A400FE 
+34: 00007FF6E4A3FC0E 
+35: 00007FF6E4A3F670 
+36: 00007FF6E4A1C742 
+37: 00007FF684FAD5BA 
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 2: 00007FF6E421C24F node::TriggerNodeReport+75087
+ 5: 00007FF6E49C20FE v8::SnapshotCreator::GetIsolate+53054
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 3: 00007FF6E54A8155 V8_Fatal+197
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 6: 00007FF6E4EE03A8 v8::SharedValueConveyor::SharedValueConveyor+454056
+ 5: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 7: 00007FF6E4EE2114 v8::SharedValueConveyor::SharedValueConveyor+461588
+ 6: 00007FF6E4D27290 v8::CpuProfileNode::GetScriptResourceNameStr+92448
+ 4: 00007FF6E45F2A2B cppgc::internal::WriteBarrier::DijkstraMarkingBarrierSlowWithSentinelCheck+299
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 5: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+ 5: 00007FF6E4D0BD8C v8::FixedArray::Length+172156
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 5: 00007FF6E49C20FE v8::SnapshotCreator::GetIsolate+53054
+ 6: 00007FF6E4EE4213 v8::SharedValueConveyor::SharedValueConveyor+470035
+ 8: 00007FF6E4ADAA4E v8::base::Thread::StartSynchronously+273806
+ 7: 00007FF6E4D50928 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+59160
+ 5: 00007FF6E49C20FE v8::SnapshotCreator::GetIsolate+53054
+ 6: 00007FF6E4D27290 v8::CpuProfileNode::GetScriptResourceNameStr+92448
+ 5: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+ 6: 00007FF6E4D36011 v8::CpuProfileNode::GetScriptResourceNameStr+153249
+ 2: 00007FF6E42A0DE8 SSL_get_quiet_shutdown+93192
+ 9: 00007FF6E4ACE694 v8::base::Thread::StartSynchronously+223700
+ 7: 00007FF6E4EE116B v8::SharedValueConveyor::SharedValueConveyor+457579
+ 8: 00007FF6E4D52EA1 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+68753
+ 6: 00007FF6E4EE25AB v8::SharedValueConveyor::SharedValueConveyor+462763
+ 7: 00007FF6E4D50928 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+59160
+ 6: 00007FF6E4D01D73 v8::FixedArray::Length+131171
+ 7: 00007FF6E49F0BCA v8::internal::Version::GetString+190330
+ 3: 00007FF6E4F12AB1 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 8: 00007FF6E4AB2C00 v8::base::Thread::StartSynchronously+110400
+10: 00007FF6E4ACEBA8 v8::base::Thread::StartSynchronously+225000
+ 9: 00007FF6E4D436C2 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5298
+ 7: 00007FF6E4EE2D1A v8::SharedValueConveyor::SharedValueConveyor+464666
+ 8: 00007FF6E4D52EA1 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+68753
+ 7: 00007FF6E4D52E35 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+68645
+ 8: 00007FF6E4D4FFBC v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+56748
+ 9: 00007FF6E4AB3604 v8::base::Thread::StartSynchronously+112964
+11: 00007FF6E4ACED63 v8::base::Thread::StartSynchronously+225443
+10: 00007FF6E4D3F2B5 v8::CpuProfileNode::GetScriptResourceNameStr+190789
+ 8: 00007FF6E4EE338D v8::SharedValueConveyor::SharedValueConveyor+466317
+ 9: 00007FF6E4D436C2 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5298
+ 4: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 8: 00007FF6E4D436C2 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5298
+ 9: 00007FF6E4D280D6 v8::CpuProfileNode::GetScriptResourceNameStr+96102
+ 5: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+10: 00007FF6E4AA8B7D v8::base::Thread::StartSynchronously+69309
+12: 00007FF6E4ACDD18 v8::base::Thread::StartSynchronously+221272
+11: 00007FF6E45D2AED BIO_ssl_shutdown+189
+ 9: 00007FF6E4ABC7F7 v8::base::Thread::StartSynchronously+150327
+10: 00007FF6E4D3F2B5 v8::CpuProfileNode::GetScriptResourceNameStr+190789
+10: 00007FF6E4D23FEE v8::CpuProfileNode::GetScriptResourceNameStr+79486
+ 6: 00007FF6E4D27290 v8::CpuProfileNode::GetScriptResourceNameStr+92448
+11: 00007FF6E4AB2769 v8::base::Thread::StartSynchronously+109225
+13: 00007FF6E4ACCF85 v8::base::Thread::StartSynchronously+217797
+10: 00007FF6E4ACEC57 v8::base::Thread::StartSynchronously+225175
+11: 00007FF6E45D2AED BIO_ssl_shutdown+189
+11: 00007FF6E4D50928 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+59160
+12: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+14: 00007FF6E4ACE709 v8::base::Thread::StartSynchronously+223817
+11: 00007FF6E4ACED63 v8::base::Thread::StartSynchronously+225443
+ 7: 00007FF6E4D50928 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+59160
+12: 00007FF6E4D52EA1 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+68753
+13: 00007FF6E4AAE89F v8::base::Thread::StartSynchronously+93151
+ 8: 00007FF6E4D52EA1 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+68753
+15: 00007FF6E4ABF704 v8::base::Thread::StartSynchronously+162372
+12: 00007FF6E4ACDD18 v8::base::Thread::StartSynchronously+221272
+ 9: 00007FF6E4D436C2 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5298
+14: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+16: 00007FF6E4AD37CB v8::base::Thread::StartSynchronously+244491
+13: 00007FF6E4D436C2 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5298
+13: 00007FF6E4ACCF85 v8::base::Thread::StartSynchronously+217797
+14: 00007FF6E4D3F2B5 v8::CpuProfileNode::GetScriptResourceNameStr+190789
+10: 00007FF6E4D3F2B5 v8::CpuProfileNode::GetScriptResourceNameStr+190789
+15: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+17: 00007FF6E4AB8CAC v8::base::Thread::StartSynchronously+135148
+ 9: 00007FF6E4D3F2B5 v8::CpuProfileNode::GetScriptResourceNameStr+190789
+15: 00007FF6E45D2AED BIO_ssl_shutdown+189
+11: 00007FF6E45D2AED BIO_ssl_shutdown+189
+18: 00007FF6E4E7754D v8::SharedValueConveyor::SharedValueConveyor+24397
+10: 00007FF6E45D2AED BIO_ssl_shutdown+189
+16: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+17: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+19: 00007FF6E4E7CF98 v8::SharedValueConveyor::SharedValueConveyor+47512
+18: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+20: 00007FF6E4EFA557 v8::ScriptCompiler::CompileFunctionInternal+679
+19: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+21: 00007FF6E4EFA2A4 v8::ScriptCompiler::CompileFunction+84
+20: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+22: 00007FF6E42AE144 node::OnFatalError+54052
+21: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+23: 00007FF6E42AE734 node::OnFatalError+55572
+22: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+24: 00007FF684F0FB64 
+23: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+24: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+25: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+26: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+27: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+28: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+29: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+30: 00007FF6E4AB3604 v8::base::Thread::StartSynchronously+112964
+31: 00007FF6E4AA8B7D v8::base::Thread::StartSynchronously+69309
+32: 00007FF6E4AB2769 v8::base::Thread::StartSynchronously+109225
+33: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+34: 00007FF6E4AAE89F v8::base::Thread::StartSynchronously+93151
+35: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+36: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+37: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+38: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+39: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+40: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+41: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+42: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+43: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+44: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+45: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+14: 00007FF6E4ACE709 v8::base::Thread::StartSynchronously+223817
+46: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+15: 00007FF6E4ABF704 v8::base::Thread::StartSynchronously+162372
+47: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+16: 00007FF6E4AD37CB v8::base::Thread::StartSynchronously+244491
+48: 00007FF6E4AB2350 v8::base::Thread::StartSynchronously+108176
+17: 00007FF6E4AB8CAC v8::base::Thread::StartSynchronously+135148
+49: 00007FF6E4AAE8CE v8::base::Thread::StartSynchronously+93198
+18: 00007FF6E4E7754D v8::SharedValueConveyor::SharedValueConveyor+24397
+50: 00007FF6E4AB2796 v8::base::Thread::StartSynchronously+109270
+19: 00007FF6E4E7CF98 v8::SharedValueConveyor::SharedValueConveyor+47512
+51: 00007FF6E4AB3604 v8::base::Thread::StartSynchronously+112964
+20: 00007FF6E4EFA557 v8::ScriptCompiler::CompileFunctionInternal+679
+52: 00007FF6E4AB348D v8::base::Thread::StartSynchronously+112589
+21: 00007FF6E4EFA2A4 v8::ScriptCompiler::CompileFunction+84
+53: 00007FF6E4AB53B1 v8::base::Thread::StartSynchronously+120561
+22: 00007FF6E42AE144 node::OnFatalError+54052
+54: 00007FF6E4ADA907 v8::base::Thread::StartSynchronously+273479
+23: 00007FF6E42AE734 node::OnFatalError+55572
+55: 00007FF6E4ACE694 v8::base::Thread::StartSynchronously+223700
+24: 00007FF684F0FB64 
+56: 00007FF6E4ACEBA8 v8::base::Thread::StartSynchronously+225000
+57: 00007FF6E4ACED63 v8::base::Thread::StartSynchronously+225443
+58: 00007FF6E4ACDD18 v8::base::Thread::StartSynchronously+221272
+59: 00007FF6E4ACCF85 v8::base::Thread::StartSynchronously+217797
+60: 00007FF6E4ACE709 v8::base::Thread::StartSynchronously+223817
+61: 00007FF6E4ABF704 v8::base::Thread::StartSynchronously+162372
+62: 00007FF6E4AD37CB v8::base::Thread::StartSynchronously+244491
+63: 00007FF6E4AB8CAC v8::base::Thread::StartSynchronously+135148
+64: 00007FF6E4E7754D v8::SharedValueConveyor::SharedValueConveyor+24397
+65: 00007FF6E4E7CF98 v8::SharedValueConveyor::SharedValueConveyor+47512
+66: 00007FF6E4EFA557 v8::ScriptCompiler::CompileFunctionInternal+679
+67: 00007FF6E4EFA2A4 v8::ScriptCompiler::CompileFunction+84
+68: 00007FF6E42AE144 node::OnFatalError+54052
+69: 00007FF6E42AE734 node::OnFatalError+55572
+70: 00007FF684F0FB64 
+
+<--- Last few GCs --->
+
+[43644:0000029476D1A000]     3746 ms: Scavenge 5.7 (7.6) -> 4.9 (9.9) MB, pooled: 0 MB, 1.58 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- Last few GCs --->
+
+[34104:0000026D10379000]     1168 ms: Scavenge 5.7 (7.7) -> 4.9 (9.4) MB, pooled: 0 MB, 2.19 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[34104:0000026D10379000]     2188 ms: Scavenge 7.7 (10.7) -> 6.8 (11.2) MB, pooled: 0 MB, 1.92 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[34104:0000026D10379000]     2805 ms: Scavenge 9.0 (12.4) -> 8.2 (16.7) MB, pooled: 0 MB, 3.67 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E42A0DE8 
+ 3: 00007FF6E4F12AB1 
+ 4: 00007FF6E4EFF8B6 
+ 5: 00007FF6E49C20FE 
+ 6: 00007FF6E4AA7043 
+ 7: 00007FF6E4AA6EC9 
+ 8: 00007FF6E4AB472A 
+ 9: 00007FF6E4AB4ACE 
+10: 00007FF6E4AB367C 
+11: 00007FF6E4AA8B7D 
+12: 00007FF6E4AB29B8 
+13: 00007FF6E4AB3604 
+14: 00007FF6E4AA8B7D 
+15: 00007FF6E4AB2769 
+16: 00007FF6E4AB2350 
+17: 00007FF6E4AAE89F 
+18: 00007FF6E4AB2796 
+19: 00007FF6E4AB3604 
+20: 00007FF6E4AA8B7D 
+21: 00007FF6E4AB2769 
+22: 00007FF6E4AB2350 
+23: 00007FF6E4AAE89F 
+24: 00007FF6E4AB2796 
+25: 00007FF6E4AB2350 
+26: 00007FF6E4AAE8CE 
+27: 00007FF6E4AB2796 
+28: 00007FF6E4AB3604 
+29: 00007FF6E4AA8B7D 
+30: 00007FF6E4AB2769 
+31: 00007FF6E4AB2350 
+32: 00007FF6E4AAE89F 
+33: 00007FF6E4AB2796 
+34: 00007FF6E4AB2350 
+35: 00007FF6E4AAE8CE 
+36: 00007FF6E4AB2796 
+37: 00007FF6E4AB2350 
+38: 00007FF6E4AAE8CE 
+39: 00007FF6E4AB2796 
+40: 00007FF6E4AB2350 
+41: 00007FF6E4AAE8CE 
+42: 00007FF6E4AB2796 
+43: 00007FF6E4AB2350 
+44: 00007FF6E4AAE8CE 
+45: 00007FF6E4AB2796 
+46: 00007FF6E4AB2350 
+47: 00007FF6E4AAE8CE 
+48: 00007FF6E4AB2796 
+49: 00007FF6E4AB3604 
+50: 00007FF6E4AB348D 
+51: 00007FF6E4AB53B1 
+52: 00007FF6E4ADA907 
+53: 00007FF6E4ACE694 
+54: 00007FF6E4ACEBA8 
+55: 00007FF6E4ACED63 
+56: 00007FF6E4ACDD18 
+57: 00007FF6E4ACCF85 
+58: 00007FF6E4ACE709 
+59: 00007FF6E4ABF704 
+60: 00007FF6E4AD37CB 
+61: 00007FF6E4AB8CAC 
+62: 00007FF6E4E7754D 
+63: 00007FF6E4E7CF98 
+64: 00007FF6E4EFA557 
+65: 00007FF6E4EFA2A4 
+66: 00007FF6E42AE144 
+67: 00007FF6E42AE734 
+68: 00007FF684F0FB64 
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E42A0DE8 
+ 3: 00007FF6E4F12AB1 
+ 4: 00007FF6E4EFF8B6 
+ 5: 00007FF6E49C20FE 
+ 6: 00007FF6E469C896 
+ 7: 00007FF6E4C96347 
+ 8: 00007FF6E4C96818 
+ 9: 00007FF6E4C9BF6D 
+10: 00007FF6E4CA64E3 
+11: 00007FF6E4C7FE31 
+12: 00007FF6E4C8EEE7 
+13: 00007FF6E4C880AA 
+14: 00007FF6E4C8D85D 
+15: 00007FF6E4C8F03B 
+16: 00007FF6E4C880AA 
+17: 00007FF6E4C8B6AD 
+18: 00007FF6E4C8E7CA 
+19: 00007FF6E4C880AA 
+20: 00007FF6E4C91865 
+21: 00007FF6E4C86362 
+22: 00007FF6E4C85F70 
+23: 00007FF6E4C75CC8 
+24: 00007FF6E4E790D8 
+25: 00007FF6E4E72168 
+26: 00007FF6E4E7780C 
+27: 00007FF6E4E7CF98 
+28: 00007FF6E4EFA557 
+29: 00007FF6E4EFA2A4 
+30: 00007FF6E42AE144 
+31: 00007FF6E42AE734 
+32: 00007FF684F0FB64 
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E421C24F 
+ 3: 00007FF6E54A7D36 
+ 4: 00007FF6E4F12B03 
+ 5: 00007FF6E4EFF8B6 
+ 6: 00007FF6E4D49D70 
+ 7: 00007FF6E4D115BA 
+ 8: 00007FF6E4D11BD0 
+ 9: 00007FF6E4D118D5 
+10: 00007FF6E4D00F3C 
+11: 00007FF6E4D00528 
+12: 00007FF6E4D57B02 
+13: 00007FF6E4DBC3EF 
+14: 00007FF6E49E0D65 
+15: 00007FF6E4F08791 
+16: 00007FF6E4376BCD 
+17: 00007FF6E416AB05 
+18: 00007FF6E416F81D 
+19: 00007FF6E4164FB5 
+20: 00007FF6E439758E 
+ 1: 00007FF6E4336CCB 
+21: 00007FF6E5B034EE 
+ 2: 00007FF6E42A0DE8 
+22: 00007FF9013554E0 
+ 3: 00007FF6E4F12AB1 
+23: 00007FF902A6485B 
+ 4: 00007FF6E4EFF8B6 
+ 5: 00007FF6E4D49D70 
+ 6: 00007FF6E4D01D73 
+ 7: 00007FF6E4D52E35 
+ 8: 00007FF6E4D436C2 
+ 9: 00007FF6E4D3F2B5 
+10: 00007FF6E45D2AED 
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+
+<--- Last few GCs --->
+
+[6028:0000021CD8ADA000]     1391 ms: Scavenge 5.7 (7.6) -> 4.9 (9.4) MB, pooled: 0 MB, 1.81 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[6028:0000021CD8ADA000]     2165 ms: Scavenge 7.6 (10.7) -> 6.8 (11.2) MB, pooled: 0 MB, 1.26 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[6028:0000021CD8ADA000]     2832 ms: Scavenge 9.0 (12.2) -> 8.1 (16.4) MB, pooled: 0 MB, 2.72 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E42A0DE8 
+ 3: 00007FF6E4F12AB1 
+ 4: 00007FF6E4EFF8B6 
+ 5: 00007FF6E49C20FE 
+ 6: 00007FF6E4C78D53 
+ 7: 00007FF6E4C78C21 
+ 8: 00007FF6E4C7906F 
+ 9: 00007FF6E4CA4812 
+10: 00007FF6E4C8F351 
+11: 00007FF6E4C880AA 
+12: 00007FF6E4C88244 
+13: 00007FF6E4C88DF1 
+14: 00007FF6E4C8F048 
+15: 00007FF6E4C880AA 
+16: 00007FF6E4C8B5F6 
+17: 00007FF6E4C8EEA2 
+18: 00007FF6E4C880AA 
+19: 00007FF6E4C8B6AD 
+20: 00007FF6E4C8E7CA 
+21: 00007FF6E4C880AA 
+22: 00007FF6E4C91865 
+23: 00007FF6E4C88697 
+24: 00007FF6E4C88554 
+25: 00007FF6E4C8E79A 
+26: 00007FF6E4C880AA 
+27: 00007FF6E4C91865 
+28: 00007FF6E4C88697 
+29: 00007FF6E4C88554 
+30: 00007FF6E4C8E79A 
+31: 00007FF6E4C880AA 
+32: 00007FF6E4C8ECEF 
+33: 00007FF6E4C880AA 
+34: 00007FF6E4C91865 
+35: 00007FF6E4C88697 
+36: 00007FF6E4C88554 
+37: 00007FF6E4C8E79A 
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+38: 00007FF6E4C880AA 
+39: 00007FF6E4C8E8A7 
+40: 00007FF6E4C880AA 
+41: 00007FF6E4C91865 
+42: 00007FF6E4C88697 
+43: 00007FF6E4C88554 
+44: 00007FF6E4C8E79A 
+45: 00007FF6E4C880AA 
+46: 00007FF6E4C8E8A7 
+47: 00007FF6E4C880AA 
+48: 00007FF6E4C8E8E7 
+49: 00007FF6E4C880AA 
+50: 00007FF6E4C91865 
+51: 00007FF6E4C88697 
+52: 00007FF6E4C88554 
+53: 00007FF6E4C8E79A 
+54: 00007FF6E4C880AA 
+55: 00007FF6E4C8E8A7 
+56: 00007FF6E4C880AA 
+57: 00007FF6E4C8E8E7 
+58: 00007FF6E4C880AA 
+59: 00007FF6E4C8E8E7 
+60: 00007FF6E4C880AA 
+61: 00007FF6E4C8E8E7 
+62: 00007FF6E4C880AA 
+63: 00007FF6E4C8E8E7 
+64: 00007FF6E4C880AA 
+65: 00007FF6E4C8E8E7 
+66: 00007FF6E4C880AA 
+67: 00007FF6E4C91865 
+68: 00007FF6E4C86362 
+69: 00007FF6E4C85FB8 
+70: 00007FF6E4C75CC8 
+71: 00007FF6E4E790D8 
+72: 00007FF6E4E72168 
+73: 00007FF6E4E75829 
+74: 00007FF6E4E7518A 
+75: 00007FF6E4A359B7 
+76: 00007FF684FAD5BA 
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E421C24F node::TriggerNodeReport+75087
+ 3: 00007FF6E54A7D36 v8::base::FatalOOM+54
+ 4: 00007FF6E4F12B03 v8::Isolate::ReportExternalAllocationLimitReached+147
+ 5: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 6: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+ 7: 00007FF6E4D115BA v8::CpuProfileNode::GetScriptResourceNameStr+3146
+ 8: 00007FF6E4D11BD0 v8::CpuProfileNode::GetScriptResourceNameStr+4704
+ 9: 00007FF6E4D118D5 v8::CpuProfileNode::GetScriptResourceNameStr+3941
+10: 00007FF6E4D00F3C v8::FixedArray::Length+127532
+11: 00007FF6E4D00528 v8::FixedArray::Length+124952
+12: 00007FF6E4D57B02 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+88306
+13: 00007FF6E4DBC3EF v8::base::CPU::has_sse41+76415
+14: 00007FF6E49E0D65 v8::internal::Version::GetString+125205
+15: 00007FF6E4F08791 v8::Isolate::Initialize+433
+16: 00007FF6E4376BCD node::NewContext+397
+17: 00007FF6E416AB05 RSA_meth_get_flags+188629
+18: 00007FF6E416F81D RSA_meth_get_flags+208365
+19: 00007FF6E4164FB5 RSA_meth_get_flags+165253
+20: 00007FF6E439758E uv_poll_stop+254
+21: 00007FF6E5B034EE inflateValidate+164590
+22: 00007FF9013554E0 BaseThreadInitThunk+16
+23: 00007FF902A6485B RtlUserThreadStart+43
+
+<--- Last few GCs --->
+
+[47704:0000020E7C0EA000]      190 ms: Scavenge 3.2 (5.0) -> 3.0 (5.7) MB, pooled: 0 MB, 1.44 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+
+
+
+[47704:0000020E7C0EA000]      550 ms: Scavenge 4.3 (6.0) -> 4.0 (8.5) MB, pooled: 0 MB, 0.95 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+<--- Last few GCs --->
+<--- Last few GCs --->
+<--- Last few GCs --->
+<--- Last few GCs --->
+<--- Last few GCs --->
+
+
+
+
+
+
+
+[47920:0000012740B49000]      349 ms: Scavenge 3.2 (5.0) -> 3.0 (5.5) MB, pooled: 0 MB, 117.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[47720:00000136170AA000]     1017 ms: Scavenge 5.7 (7.7) -> 5.7 (10.4) MB, pooled: 0 MB, 0.94 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[33752:000001E8F8C68000]      455 ms: Scavenge 5.7 (7.7) -> 4.9 (9.6) MB, pooled: 0 MB, 1.69 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[47764:000001D36C6B1000]     2220 ms: Scavenge 9.3 (12.7) -> 8.2 (12.7) MB, pooled: 0 MB, 1.70 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[39572:0000013B2E08A000]      883 ms: Scavenge 5.7 (7.6) -> 4.9 (9.6) MB, pooled: 0 MB, 146.80 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- JS stacktrace --->
+[47720:00000136170AA000]     1578 ms: Scavenge 8.4 (11.5) -> 7.4 (11.7) MB, pooled: 0 MB, 2.03 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[47920:0000012740B49000]      582 ms: Scavenge 4.7 (7.0) -> 4.3 (9.0) MB, pooled: 0 MB, 1.72 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[33752:000001E8F8C68000]     1051 ms: Scavenge 7.6 (10.7) -> 6.7 (10.9) MB, pooled: 0 MB, 2.30 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[47764:000001D36C6B1000]     2568 ms: Scavenge 9.8 (12.9) -> 8.8 (13.7) MB, pooled: 0 MB, 1.16 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[39572:0000013B2E08A000]     1292 ms: Scavenge 7.6 (10.7) -> 6.7 (11.2) MB, pooled: 0 MB, 1.92 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[47720:00000136170AA000]     2119 ms: Scavenge 9.7 (13.0) -> 8.9 (17.7) MB, pooled: 0 MB, 2.88 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+[47764:000001D36C6B1000]     2941 ms: Scavenge 10.8 (13.9) -> 9.7 (18.2) MB, pooled: 0 MB, 1.78 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+
+
+
+
+----- Native stack trace -----
+
+
+<--- JS stacktrace --->
+<--- JS stacktrace --->
+
+<--- JS stacktrace --->
+
+<--- JS stacktrace --->
+
+
+ 1: 00007FF6E4336CCB 
+<--- JS stacktrace --->
+
+
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+ 2: 00007FF6E42A0DE8 
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+----- Native stack trace -----
+ 3: 00007FF6E4F12AB1 
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+----- Native stack trace -----
+
+
+ 4: 00007FF6E4EFF8B6 
+----- Native stack trace -----
+
+
+ 1: 00007FF6E4336CCB 
+ 5: 00007FF6E4D49D70 
+
+ 1: 00007FF6E4336CCB 
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E42A0DE8 
+ 1: 00007FF6E4336CCB 
+ 6: 00007FF6E4D1D349 
+ 1: 00007FF6E4336CCB 
+ 2: 00007FF6E42A0DE8 
+ 2: 00007FF6E42A0DE8 
+ 3: 00007FF6E4F12AB1 
+ 2: 00007FF6E42A0DE8 
+ 7: 00007FF6E4D2E889 
+ 2: 00007FF6E42A0DE8 
+ 3: 00007FF6E4F12AB1 
+ 3: 00007FF6E4F12AB1 
+ 4: 00007FF6E4EFF8B6 
+ 3: 00007FF6E4F12AB1 
+ 8: 00007FF6E4D25802 
+ 3: 00007FF6E4F12AB1 
+ 4: 00007FF6E4EFF8B6 
+ 4: 00007FF6E4EFF8B6 
+ 5: 00007FF6E4D49D70 
+ 4: 00007FF6E4EFF8B6 
+ 9: 00007FF6E4D2BF59 
+ 4: 00007FF6E4EFF8B6 
+ 5: 00007FF6E4D49D70 
+ 5: 00007FF6E49C20FE 
+ 6: 00007FF6E4D27290 
+ 5: 00007FF6E4D49D70 
+10: 00007FF6E4D302AE 
+ 5: 00007FF6E49C20FE 
+ 6: 00007FF6E4D27290 
+ 6: 00007FF6E4C885DA 
+ 7: 00007FF6E4D50928 
+ 6: 00007FF6E4D1D349 
+11: 00007FF6E5103DBF 
+ 6: 00007FF6E4EE4213 
+ 7: 00007FF6E4D50928 
+ 7: 00007FF6E4C88554 
+ 8: 00007FF6E4D52EA1 
+ 7: 00007FF6E4D2E889 
+12: 00007FF6E5103B96 
+ 7: 00007FF6E4EE116B 
+ 8: 00007FF6E4D52EA1 
+ 8: 00007FF6E4C8E79A 
+ 9: 00007FF6E4D436C2 
+ 8: 00007FF6E4D25802 
+13: 00007FF6E4D247B4 
+ 8: 00007FF6E4AB2C00 
+ 9: 00007FF6E4D436C2 
+ 9: 00007FF6E4C880AA 
+10: 00007FF6E4D3F2B5 
+ 9: 00007FF6E4D2BF59 
+14: 00007FF6E4D25F87 
+ 9: 00007FF6E4AB3604 
+10: 00007FF6E4D3F2B5 
+10: 00007FF6E4C91865 
+11: 00007FF6E45D2AED 
+10: 00007FF6E4D304D8 
+15: 00007FF6E4D24E13 
+10: 00007FF6E4AA8B7D 
+11: 00007FF6E45D2AED 
+11: 00007FF6E4C88697 
+11: 00007FF6E5104145 
+16: 00007FF6E4D24034 
+11: 00007FF6E4AB2769 
+12: 00007FF6E4C88554 
+12: 00007FF6E421EB39 
+17: 00007FF6E4D50928 
+12: 00007FF6E4AB2350 
+13: 00007FF6E4C8E79A 
+13: 00007FF6E439758E 
+18: 00007FF6E4D52EA1 
+13: 00007FF6E4AAE89F 
+14: 00007FF6E4C880AA 
+14: 00007FF6E5B034EE 
+19: 00007FF6E4D436C2 
+14: 00007FF6E4AB2796 
+15: 00007FF6E4C8ECEF 
+15: 00007FF9013554E0 
+20: 00007FF6E4D3F2B5 
+15: 00007FF6E4AB2350 
+16: 00007FF6E4C880AA 
+16: 00007FF902A6485B RtlUserThreadStart+43
+21: 00007FF6E45D2AED 
+16: 00007FF6E4AAE8CE 
+17: 00007FF6E4C91865 
+17: 00007FF6E4AB2796 
+18: 00007FF6E4C88697 
+18: 00007FF6E4AB2350 
+19: 00007FF6E4C88554 
+19: 00007FF6E4AAE8CE 
+20: 00007FF6E4C8E79A 
+20: 00007FF6E4AB2796 
+21: 00007FF6E4C880AA 
+21: 00007FF6E4AB2350 
+22: 00007FF6E4C8E8A7 
+22: 00007FF6E4AAE8CE 
+23: 00007FF6E4C880AA 
+23: 00007FF6E4AB2796 
+24: 00007FF6E4C91865 
+24: 00007FF6E4AB2350 
+25: 00007FF6E4C88697 
+25: 00007FF6E4AAE8CE 
+26: 00007FF6E4C88554 
+26: 00007FF6E4AB2796 
+27: 00007FF6E4C8E79A 
+27: 00007FF6E4AB2350 
+28: 00007FF6E4C880AA 
+28: 00007FF6E4AAE8CE 
+29: 00007FF6E4C8E8A7 
+29: 00007FF6E4AB2796 
+30: 00007FF6E4C880AA 
+30: 00007FF6E4AB3604 
+31: 00007FF6E4C8E8E7 
+31: 00007FF6E4AA8B7D 
+32: 00007FF6E4C880AA 
+32: 00007FF6E4AB2769 
+33: 00007FF6E4C91865 
+33: 00007FF6E4AB2350 
+34: 00007FF6E4C86362 
+34: 00007FF6E4AAE89F 
+35: 00007FF6E4C85FB8 
+35: 00007FF6E4AB2796 
+36: 00007FF6E4C75CC8 
+36: 00007FF6E4AB2350 
+37: 00007FF6E4E790D8 
+37: 00007FF6E4AAE8CE 
+38: 00007FF6E4E72168 
+38: 00007FF6E4AB2796 
+39: 00007FF6E4E75829 
+39: 00007FF6E4AB2350 
+40: 00007FF6E4E7518A 
+40: 00007FF6E4AAE8CE 
+41: 00007FF6E4A359B7 
+41: 00007FF6E4AB2796 
+42: 00007FF684FAD5BA 
+42: 00007FF6E4AB2350 
+43: 00007FF6E4AAE8CE 
+44: 00007FF6E4AB2796 
+45: 00007FF6E4AB2350 
+46: 00007FF6E4AAE8CE 
+47: 00007FF6E4AB2796 
+48: 00007FF6E4AB2350 
+49: 00007FF6E4AAE8CE 
+50: 00007FF6E4AB2796 
+51: 00007FF6E4AB3604 
+52: 00007FF6E4AB348D 
+53: 00007FF6E4AB53B1 
+54: 00007FF6E4ADA907 
+55: 00007FF6E4ACE694 
+56: 00007FF6E4ACEBA8 
+57: 00007FF6E4ACED63 
+58: 00007FF6E4ACDD18 
+59: 00007FF6E4ACCF85 
+60: 00007FF6E4ACE709 
+61: 00007FF6E4ABF704 
+62: 00007FF6E4AD37CB 
+63: 00007FF6E4AB8CAC 
+64: 00007FF6E4E7754D 
+65: 00007FF6E4E7CF98 
+66: 00007FF6E4EFA557 
+67: 00007FF6E4EFA2A4 
+68: 00007FF6E42AE144 
+69: 00007FF6E42AE734 
+70: 00007FF684F0FB64 
+Error: Can't resolve 'tailwindcss' in 'C:\Users\TREASURE\Desktop\payslipflow'
+    [at finishWithoutResolve (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\Users\TREASURE\Desktop\payslipflow\anviflow\node_modules\.pnpm\enhanced-resolve@5.19.0\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\TREASURE\\Desktop\\payslipflow'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\TREASURE\\package.json (relative path: ./Desktop/payslipflow)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\TREASURE\\Desktop\\payslipflow\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\TREASURE\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\package.json (relative path: ./node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules;C:/Users/TREASURE/Desktop/payslipflow/anviflow/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules\\next\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e\\node_modules;C:\\Users\\TREASURE\\Desktop\\payslipflow\\anviflow\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}
+
+
+#
+# Fatal process out of memory: Zone
+#
+----- Native stack trace -----
+
+memory allocation of 49152 bytes failed
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+ 1: 00007FF6E4336CCB node::SetCppgcReference+15995
+ 2: 00007FF6E421C24F node::TriggerNodeReport+75087
+ 3: 00007FF6E54A7D36 v8::base::FatalOOM+54
+ 4: 00007FF6E4F12B03 v8::Isolate::ReportExternalAllocationLimitReached+147
+ 5: 00007FF6E4EFF8B6 v8::Function::Experimental_IsNopFunction+2918
+ 6: 00007FF6E4D49D70 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31584
+ 7: 00007FF6E4D115BA v8::CpuProfileNode::GetScriptResourceNameStr+3146
+ 8: 00007FF6E4D11BD0 v8::CpuProfileNode::GetScriptResourceNameStr+4704
+ 9: 00007FF6E4D118D5 v8::CpuProfileNode::GetScriptResourceNameStr+3941
+10: 00007FF6E4D00F3C v8::FixedArray::Length+127532
+11: 00007FF6E4D00528 v8::FixedArray::Length+124952
+12: 00007FF6E4D57B02 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+88306
+13: 00007FF6E4DBC3EF v8::base::CPU::has_sse41+76415
+14: 00007FF6E49E0D65 v8::internal::Version::GetString+125205
+15: 00007FF6E4F08791 v8::Isolate::Initialize+433
+16: 00007FF6E4376BCD node::NewContext+397
+17: 00007FF6E416AB05 RSA_meth_get_flags+188629
+18: 00007FF6E416F81D RSA_meth_get_flags+208365
+19: 00007FF6E4164FB5 RSA_meth_get_flags+165253
+20: 00007FF6E439758E uv_poll_stop+254
+21: 00007FF6E5B034EE inflateValidate+164590
+22: 00007FF9013554E0 BaseThreadInitThunk+16
+23: 00007FF902A6485B RtlUserThreadStart+43
+
