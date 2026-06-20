@@ -4,6 +4,8 @@ import { db } from '@/lib/db'
 import { payslips } from '@/lib/db/schema'
 import { and, eq } from 'drizzle-orm'
 import { headers } from 'next/headers'
+import fs from 'fs/promises'
+import path from 'path'
 
 // Helper to get authenticated user
 async function getAuthenticatedUser() {
@@ -42,20 +44,37 @@ export async function GET(
       return NextResponse.json({ error: 'PDF not generated yet' }, { status: 404 })
     }
 
-    // Fetch the blob content using the server-side token
-    const blobResponse = await fetch(payslip.pdfUrl, {
-      headers: {
-        Authorization: `Bearer ${process.env.BLOB_READ_WRITE_TOKEN}`,
-      },
-    })
+    let content: ArrayBuffer
+    let contentType = 'text/html'
 
-    if (!blobResponse.ok) {
-      console.error('Failed to fetch blob:', blobResponse.status, blobResponse.statusText)
-      return NextResponse.json({ error: 'Failed to fetch PDF' }, { status: 500 })
+    if (payslip.pdfUrl.startsWith('http://') || payslip.pdfUrl.startsWith('https://')) {
+      // Fetch the blob content using the server-side token
+      const blobResponse = await fetch(payslip.pdfUrl, {
+        headers: {
+          Authorization: `Bearer ${process.env.BLOB_READ_WRITE_TOKEN}`,
+        },
+      })
+
+      if (!blobResponse.ok) {
+        console.error('Failed to fetch blob:', blobResponse.status, blobResponse.statusText)
+        return NextResponse.json({ error: 'Failed to fetch PDF' }, { status: 500 })
+      }
+
+      contentType = blobResponse.headers.get('content-type') || 'text/html'
+      content = await blobResponse.arrayBuffer()
+    } else {
+      // Read local file
+      const absolutePath = path.join(process.cwd(), 'public', payslip.pdfUrl)
+      try {
+        const fileContent = await fs.readFile(absolutePath)
+        // Convert Node Buffer to ArrayBuffer
+        content = fileContent.buffer.slice(fileContent.byteOffset, fileContent.byteOffset + fileContent.byteLength)
+        contentType = 'text/html'
+      } catch (err) {
+        console.error('Failed to read local file:', err)
+        return NextResponse.json({ error: 'Failed to read local file' }, { status: 500 })
+      }
     }
-
-    const contentType = blobResponse.headers.get('content-type') || 'text/html'
-    const content = await blobResponse.arrayBuffer()
 
     // Return the content with appropriate headers
     return new NextResponse(content, {

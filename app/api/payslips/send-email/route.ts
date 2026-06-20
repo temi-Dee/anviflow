@@ -134,12 +134,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'No payslip IDs provided' }, { status: 400 })
     }
 
-    // Check if Resend is configured
-    if (!resend) {
-      return NextResponse.json({ 
-        error: 'Email service not configured. Please add RESEND_API_KEY environment variable.' 
-      }, { status: 500 })
-    }
+    // Check if Resend is configured (if not, we will run in simulation mode)
+    const isSimulationMode = !resend
 
     const results: Array<{ payslipId: number; success: boolean; error?: string }> = []
 
@@ -178,32 +174,46 @@ export async function POST(request: NextRequest) {
         // Get the from email - must be a verified domain in Resend
         const fromEmail = process.env.RESEND_FROM_EMAIL || 'ANVIFLOW <onboarding@resend.dev>'
 
-        // Send email via Resend
-        const { data, error } = await resend.emails.send({
-          from: fromEmail,
-          to: payslip.employeeEmail,
-          subject: emailSubject,
-          html: emailHtml,
-        })
+        let resendId: string | null = null
 
-        if (error) {
-          // Log failed email
-          await db.insert(emailLogs).values({
-            userId: user.id,
-            payslipId,
-            recipientEmail: payslip.employeeEmail,
+        if (isSimulationMode) {
+          // Simulation mode
+          console.log(`[Email Simulation]
+From: ${fromEmail}
+To: ${payslip.employeeEmail}
+Subject: ${emailSubject}
+Body (length): ${emailHtml.length} characters`);
+          resendId = 'sim_' + Math.random().toString(36).substring(2, 11)
+        } else {
+          // Send email via Resend
+          const { data, error } = await resend.emails.send({
+            from: fromEmail,
+            to: payslip.employeeEmail,
             subject: emailSubject,
-            status: 'failed',
-            errorMessage: error.message,
+            html: emailHtml,
           })
 
-          await db
-            .update(payslips)
-            .set({ emailStatus: 'failed', emailError: error.message, updatedAt: new Date() })
-            .where(eq(payslips.id, payslipId))
+          if (error) {
+            // Log failed email
+            await db.insert(emailLogs).values({
+              userId: user.id,
+              payslipId,
+              recipientEmail: payslip.employeeEmail,
+              subject: emailSubject,
+              status: 'failed',
+              errorMessage: error.message,
+            })
 
-          results.push({ payslipId, success: false, error: error.message })
-          continue
+            await db
+              .update(payslips)
+              .set({ emailStatus: 'failed', emailError: error.message, updatedAt: new Date() })
+              .where(eq(payslips.id, payslipId))
+
+            results.push({ payslipId, success: false, error: error.message })
+            continue
+          }
+
+          resendId = data?.id || null
         }
 
         // Log successful email
@@ -214,7 +224,7 @@ export async function POST(request: NextRequest) {
           subject: emailSubject,
           status: 'sent',
           sentAt: new Date(),
-          resendId: data?.id,
+          resendId,
         })
 
         await db
@@ -231,7 +241,9 @@ export async function POST(request: NextRequest) {
 
     const successCount = results.filter((r) => r.success).length
     return NextResponse.json({
-      message: `Sent ${successCount} of ${payslipIds.length} emails`,
+      message: isSimulationMode
+        ? `[SIMULATION] Sent ${successCount} of ${payslipIds.length} emails (logged to server console)`
+        : `Sent ${successCount} of ${payslipIds.length} emails`,
       results,
     })
   } catch (error) {

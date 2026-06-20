@@ -5,6 +5,8 @@ import { payslips, payrolls } from '@/lib/db/schema'
 import { and, eq } from 'drizzle-orm'
 import { headers } from 'next/headers'
 import { put } from '@vercel/blob'
+import fs from 'fs/promises'
+import path from 'path'
 
 // Helper to get authenticated user
 async function getAuthenticatedUser() {
@@ -426,24 +428,41 @@ export async function POST(request: NextRequest) {
           }
         )
 
-        // Store HTML as blob (will be converted to PDF by email service or viewer)
-        const blob = await put(
-          `payslips/${user.id}/${payslipId}/payslip-${Date.now()}.html`,
-          html,
-          { access: 'private', contentType: 'text/html' }
-        )
+        let url = ''
+
+        if (process.env.BLOB_READ_WRITE_TOKEN) {
+          // Store HTML as blob
+          const blob = await put(
+            `payslips/${user.id}/${payslipId}/payslip-${Date.now()}.html`,
+            html,
+            { access: 'private', contentType: 'text/html' }
+          )
+          url = blob.url
+        } else {
+          // Local development simulation fallback
+          const filename = `payslip-${Date.now()}.html`
+          const relativeDir = `/uploads/payslips/${user.id}/${payslipId}`
+          const absoluteDir = path.join(process.cwd(), 'public', relativeDir)
+          const absolutePath = path.join(absoluteDir, filename)
+          
+          await fs.mkdir(absoluteDir, { recursive: true })
+          await fs.writeFile(absolutePath, html, 'utf-8')
+          
+          url = `${relativeDir}/${filename}`
+          console.log(`[Vercel Blob Simulation] Saved HTML file locally to: ${absolutePath}`)
+        }
 
         // Update payslip with PDF URL
         await db
           .update(payslips)
           .set({
-            pdfUrl: blob.url,
+            pdfUrl: url,
             pdfGeneratedAt: new Date(),
             updatedAt: new Date(),
           })
           .where(and(eq(payslips.id, payslipId), eq(payslips.userId, user.id)))
 
-        results.push({ payslipId, success: true, pdfUrl: blob.url })
+        results.push({ payslipId, success: true, pdfUrl: url })
       } catch (error) {
         console.error(`Error generating PDF for payslip ${payslipId}:`, error)
         results.push({ payslipId, success: false, error: 'Generation failed' })

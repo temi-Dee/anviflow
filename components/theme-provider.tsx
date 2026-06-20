@@ -40,13 +40,11 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     applyTheme(!isDark)
   }
 
-  if (!mounted) {
-    return <>{children}</>
-  }
-
+  // To prevent hydration mismatch and useTheme context errors,
+  // we always render the provider and same wrapper structure on the server and client.
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>
-      <div data-theme={isDark ? 'dark' : 'light'} suppressHydrationWarning>
+      <div data-theme={mounted ? (isDark ? 'dark' : 'light') : 'dark'} suppressHydrationWarning>
         {children}
       </div>
     </ThemeContext.Provider>

@@ -78,11 +78,9 @@ export function DashboardHeader({ user }: HeaderProps) {
       <div className="flex items-center gap-4">
         {/* Mobile menu trigger */}
         <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
-          <SheetTrigger className="lg:hidden">
-            <button className="p-2 rounded-xl text-white/70 hover:text-white hover:bg-white/10 transition-colors">
-              <Menu className="h-5 w-5" />
-              <span className="sr-only">Open menu</span>
-            </button>
+          <SheetTrigger className="lg:hidden p-2 rounded-xl text-white/70 hover:text-white hover:bg-white/10 transition-colors">
+            <Menu className="h-5 w-5" />
+            <span className="sr-only">Open menu</span>
           </SheetTrigger>
           <SheetContent
             side="left"

@@ -1,0 +1,294 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+          font-family: Arial, sans-serif; 
+          color: #1a1a2e; 
+          background: white; 
+          padding: 20px;
+          font-size: 12px;
+        }
+        .container { 
+          max-width: 700px; 
+          margin: 0 auto; 
+          background: white; 
+          border: 2px solid #1e3a5f;
+          padding: 0;
+        }
+        .header { 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px 20px;
+          border-bottom: 2px solid #1e3a5f;
+          background: #f8f9fa;
+        }
+        .logo-container {
+          text-align: center;
+        }
+        .logo {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .company-name {
+          font-size: 18px;
+          font-weight: bold;
+          color: #1e3a5f;
+          margin-top: 8px;
+          text-align: center;
+        }
+        .payslip-title {
+          background: #1e3a5f;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          font-size: 16px;
+          font-weight: bold;
+          letter-spacing: 2px;
+        }
+        .info-section {
+          padding: 15px 20px;
+          border-bottom: 1px solid #ddd;
+        }
+        .info-row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 8px;
+        }
+        .info-item {
+          width: 50%;
+          display: flex;
+        }
+        .info-label {
+          font-weight: bold;
+          color: #1e3a5f;
+          min-width: 120px;
+        }
+        .info-value {
+          color: #333;
+        }
+        .earnings-deductions {
+          display: flex;
+          border-bottom: 1px solid #ddd;
+        }
+        .earnings, .deductions {
+          width: 50%;
+          padding: 15px 20px;
+        }
+        .earnings {
+          border-right: 1px solid #ddd;
+        }
+        .section-header {
+          background: #1e3a5f;
+          color: white;
+          padding: 8px 12px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+          font-size: 11px;
+        }
+        .item-row {
+          display: flex;
+          justify-content: space-between;
+          padding: 6px 0;
+          border-bottom: 1px dotted #ddd;
+        }
+        .item-row:last-child {
+          border-bottom: none;
+        }
+        .item-label {
+          color: #333;
+        }
+        .item-value {
+          font-weight: 500;
+          text-align: right;
+        }
+        .earnings .item-value {
+          color: #16a34a;
+        }
+        .deductions .item-value {
+          color: #dc2626;
+        }
+        .total-row {
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 0;
+          margin-top: 10px;
+          border-top: 2px solid #1e3a5f;
+          font-weight: bold;
+          font-size: 13px;
+        }
+        .net-pay-section {
+          background: #1e3a5f;
+          color: white;
+          padding: 15px 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .net-pay-label {
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .net-pay-value {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .signatures {
+          padding: 30px 20px;
+          display: flex;
+          justify-content: space-around;
+          margin-top: 20px;
+        }
+        .signature-box {
+          text-align: center;
+          width: 40%;
+        }
+        .signature-line {
+          border-top: 1px solid #333;
+          padding-top: 8px;
+          margin-top: 40px;
+          font-size: 11px;
+          color: #666;
+        }
+        .footer {
+          text-align: center;
+          padding: 15px;
+          color: #666;
+          font-size: 10px;
+          border-top: 1px solid #ddd;
+          background: #f8f9fa;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <div class="logo-container">
+            <img src="http://localhost:3000/anviflow-logo.jpg" alt="Company Logo" class="logo" />
+            <div class="company-name">ANVICTOL INTEGRATED SERVICES NIGERIA LIMITED</div>
+          </div>
+        </div>
+        
+        <div class="payslip-title">PAYSLIP</div>
+        
+        <div class="info-section">
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label">MONTH:</span>
+              <span class="info-value">JUNE 2026</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">LOCATION:</span>
+              <span class="info-value">HEAD OFFICE</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label">EMPLOYEE:</span>
+              <span class="info-value">ayodele Daniel</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">DAYS WORKED:</span>
+              <span class="info-value">22 DAYS</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label">POSITION:</span>
+              <span class="info-value">STAFF</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label">BANK DETAILS:</span>
+              <span class="info-value">N/A/N/A</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="earnings-deductions">
+          <div class="earnings">
+            <div class="section-header">EARNINGS (IN)</div>
+            <div class="item-row">
+              <span class="item-label">Basic</span>
+              <span class="item-value">₦60,000.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Housing</span>
+              <span class="item-value">₦30,000.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Transportation</span>
+              <span class="item-value">₦6,000.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Other Sundry Allowances</span>
+              <span class="item-value">₦0.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Leave Allowance</span>
+              <span class="item-value">₦0.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Overtime</span>
+              <span class="item-value">₦0.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Loan</span>
+              <span class="item-value">₦0.00</span>
+            </div>
+            <div class="total-row">
+              <span>Total</span>
+              <span>₦96,000.00</span>
+            </div>
+          </div>
+          
+          <div class="deductions">
+            <div class="section-header">DEDUCTIONS (OUT)</div>
+            <div class="item-row">
+              <span class="item-label">Tax (PAYE)</span>
+              <span class="item-value">₦14,000.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Employee Pension (8% BHT)</span>
+              <span class="item-value">₦4,800.00</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">NHF (2.5% Basic)</span>
+              <span class="item-value">₦1,500.00</span>
+            </div>
+            <div class="total-row">
+              <span>Total</span>
+              <span>₦20,300.00</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="net-pay-section">
+          <span class="net-pay-label">Net Pay Transferred to Bank</span>
+          <span class="net-pay-value">₦75,700.00</span>
+        </div>
+        
+        <div class="signatures">
+          <div class="signature-box">
+            <div class="signature-line">Employee Signature</div>
+          </div>
+          <div class="signature-box">
+            <div class="signature-line">Employer Signature</div>
+          </div>
+        </div>
+        
+        <div class="footer">
+          This is a computer-generated payslip from ANVIFLOW. Please contact HR for any queries.
+        </div>
+      </div>
+    </body>
+    </html>
+  
