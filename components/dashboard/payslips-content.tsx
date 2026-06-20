@@ -39,7 +39,19 @@ interface Payslip {
   employeeId: number
   employeeName: string
   employeeEmail: string
+  position?: string | null
+  location?: string | null
+  daysWorked?: string | null
+  bankDetails?: string | null
   basicSalary: string | null
+  housingAllowance?: string | null
+  transportationAllowance?: string | null
+  otherSundryAllowance?: string | null
+  leaveAllowance?: string | null
+  overtime?: string | null
+  loan?: string | null
+  pensionContribution?: string | null
+  nhf?: string | null
   allowances: string | null
   deductions: string | null
   tax: string | null
@@ -179,8 +191,8 @@ export function PayslipsContent({
     }
   }
 
-  const handlePayrollFilter = (value: string) => {
-    if (value === 'all') {
+  const handlePayrollFilter = (value: string | null) => {
+    if (!value || value === 'all') {
       router.push('/dashboard/payslips')
     } else {
       router.push(`/dashboard/payslips?payrollId=${value}`)

@@ -221,7 +221,19 @@ export async function createPayslip(data: {
   employeeId: number
   employeeName: string
   employeeEmail: string
+  position?: string
+  location?: string
+  daysWorked?: string
+  bankDetails?: string
   basicSalary: string
+  housingAllowance?: string
+  transportationAllowance?: string
+  otherSundryAllowance?: string
+  leaveAllowance?: string
+  overtime?: string
+  loan?: string
+  pensionContribution?: string
+  nhf?: string
   allowances?: string
   deductions?: string
   tax?: string
@@ -234,7 +246,19 @@ export async function createPayslip(data: {
     employeeId: data.employeeId,
     employeeName: data.employeeName,
     employeeEmail: data.employeeEmail,
+    position: data.position || null,
+    location: data.location || null,
+    daysWorked: data.daysWorked || null,
+    bankDetails: data.bankDetails || null,
     basicSalary: data.basicSalary,
+    housingAllowance: data.housingAllowance || '0',
+    transportationAllowance: data.transportationAllowance || '0',
+    otherSundryAllowance: data.otherSundryAllowance || '0',
+    leaveAllowance: data.leaveAllowance || '0',
+    overtime: data.overtime || '0',
+    loan: data.loan || '0',
+    pensionContribution: data.pensionContribution || '0',
+    nhf: data.nhf || '0',
     allowances: data.allowances || '0',
     deductions: data.deductions || '0',
     tax: data.tax || '0',
@@ -249,7 +273,19 @@ export async function bulkCreatePayslips(payslipsList: Array<{
   employeeId: number
   employeeName: string
   employeeEmail: string
+  position?: string
+  location?: string
+  daysWorked?: string
+  bankDetails?: string
   basicSalary: string
+  housingAllowance?: string
+  transportationAllowance?: string
+  otherSundryAllowance?: string
+  leaveAllowance?: string
+  overtime?: string
+  loan?: string
+  pensionContribution?: string
+  nhf?: string
   allowances?: string
   deductions?: string
   tax?: string
@@ -262,7 +298,19 @@ export async function bulkCreatePayslips(payslipsList: Array<{
     employeeId: p.employeeId,
     employeeName: p.employeeName,
     employeeEmail: p.employeeEmail,
+    position: p.position || null,
+    location: p.location || null,
+    daysWorked: p.daysWorked || null,
+    bankDetails: p.bankDetails || null,
     basicSalary: p.basicSalary,
+    housingAllowance: p.housingAllowance || '0',
+    transportationAllowance: p.transportationAllowance || '0',
+    otherSundryAllowance: p.otherSundryAllowance || '0',
+    leaveAllowance: p.leaveAllowance || '0',
+    overtime: p.overtime || '0',
+    loan: p.loan || '0',
+    pensionContribution: p.pensionContribution || '0',
+    nhf: p.nhf || '0',
     allowances: p.allowances || '0',
     deductions: p.deductions || '0',
     tax: p.tax || '0',

@@ -42,10 +42,22 @@ function getBaseUrl() {
 function generatePayslipHTML(payslip: {
   employeeName: string
   employeeEmail: string
+  position?: string | null
+  location?: string | null
+  daysWorked?: string | null
+  bankDetails?: string | null
   basicSalary: string | null
-  allowances: string | null
-  deductions: string | null
-  tax: string | null
+  housingAllowance?: string | null
+  transportationAllowance?: string | null
+  otherSundryAllowance?: string | null
+  leaveAllowance?: string | null
+  overtime?: string | null
+  loan?: string | null
+  pensionContribution?: string | null
+  nhf?: string | null
+  allowances?: string | null
+  deductions?: string | null
+  tax?: string | null
   netSalary: string | null
 }, payroll: { name: string; payPeriod: string; payDate: string }, employee?: {
   position?: string | null
@@ -54,17 +66,26 @@ function generatePayslipHTML(payslip: {
   bankAccount?: string | null
 }) {
   const basicSalary = parseFloat(payslip.basicSalary || '0')
-  const housing = basicSalary * 0.5 // 50% of basic
-  const transportation = basicSalary * 0.1 // 10% of basic
-  const otherAllowances = parseFloat(payslip.allowances || '0') - housing - transportation
-  const totalEarnings = basicSalary + housing + transportation + Math.max(0, otherAllowances)
-  
+  const housing = parseFloat(payslip.housingAllowance || '0')
+  const transportation = parseFloat(payslip.transportationAllowance || '0')
+  const sundry = parseFloat(payslip.otherSundryAllowance || '0')
+  const leave = parseFloat(payslip.leaveAllowance || '0')
+  const overtime = parseFloat(payslip.overtime || '0')
+  const loan = parseFloat(payslip.loan || '0')
+  const pension = parseFloat(payslip.pensionContribution || '0')
+  const nhf = parseFloat(payslip.nhf || '0')
   const tax = parseFloat(payslip.tax || '0')
-  const pension = basicSalary * 0.08 // 8% pension contribution
-  const nhf = basicSalary * 0.025 // 2.5% NHF
-  const totalDeductions = tax + pension + nhf
+
+  const totalEarnings = basicSalary + housing + transportation + sundry + leave + overtime
+  const totalDeductions = loan + pension + nhf + tax
   
-  const netPay = totalEarnings - totalDeductions
+  const netPay = parseFloat(payslip.netSalary || '0') || (totalEarnings - totalDeductions)
+
+  // Employee info (prefer payslip fields, fall back to employee record)
+  const position = payslip.position || employee?.position || 'STAFF'
+  const location = payslip.location || employee?.department || 'HEAD OFFICE'
+  const daysWorked = payslip.daysWorked || '22 DAYS'
+  const bankDetails = payslip.bankDetails || (employee?.bankName && employee?.bankAccount ? `${employee.bankName} / ${employee.bankAccount}` : 'N/A')
   
   const baseUrl = getBaseUrl()
   const logoUrl = `${baseUrl}/anviflow-logo.jpg`
@@ -266,7 +287,7 @@ function generatePayslipHTML(payslip: {
             </div>
             <div class="info-item">
               <span class="info-label">LOCATION:</span>
-              <span class="info-value">${employee?.department || 'HEAD OFFICE'}</span>
+              <span class="info-value">${location}</span>
             </div>
           </div>
           <div class="info-row">
@@ -276,19 +297,19 @@ function generatePayslipHTML(payslip: {
             </div>
             <div class="info-item">
               <span class="info-label">DAYS WORKED:</span>
-              <span class="info-value">22 DAYS</span>
+              <span class="info-value">${daysWorked}</span>
             </div>
           </div>
           <div class="info-row">
             <div class="info-item">
               <span class="info-label">POSITION:</span>
-              <span class="info-value">${employee?.position || 'STAFF'}</span>
+              <span class="info-value">${position}</span>
             </div>
           </div>
           <div class="info-row">
             <div class="info-item">
               <span class="info-label">BANK DETAILS:</span>
-              <span class="info-value">${employee?.bankName || 'N/A'}/${employee?.bankAccount || 'N/A'}</span>
+              <span class="info-value">${bankDetails}</span>
             </div>
           </div>
         </div>
@@ -301,31 +322,27 @@ function generatePayslipHTML(payslip: {
               <span class="item-value">${formatNaira(basicSalary.toFixed(2))}</span>
             </div>
             <div class="item-row">
-              <span class="item-label">Housing</span>
+              <span class="item-label">Housing Allowance</span>
               <span class="item-value">${formatNaira(housing.toFixed(2))}</span>
             </div>
             <div class="item-row">
-              <span class="item-label">Transportation</span>
+              <span class="item-label">Transportation Allowance</span>
               <span class="item-value">${formatNaira(transportation.toFixed(2))}</span>
             </div>
             <div class="item-row">
               <span class="item-label">Other Sundry Allowances</span>
-              <span class="item-value">${formatNaira(Math.max(0, otherAllowances).toFixed(2))}</span>
+              <span class="item-value">${formatNaira(sundry.toFixed(2))}</span>
             </div>
             <div class="item-row">
               <span class="item-label">Leave Allowance</span>
-              <span class="item-value">${formatNaira('0')}</span>
+              <span class="item-value">${formatNaira(leave.toFixed(2))}</span>
             </div>
             <div class="item-row">
               <span class="item-label">Overtime</span>
-              <span class="item-value">${formatNaira('0')}</span>
-            </div>
-            <div class="item-row">
-              <span class="item-label">Loan</span>
-              <span class="item-value">${formatNaira('0')}</span>
+              <span class="item-value">${formatNaira(overtime.toFixed(2))}</span>
             </div>
             <div class="total-row">
-              <span>Total</span>
+              <span>Total Earnings</span>
               <span>${formatNaira(totalEarnings.toFixed(2))}</span>
             </div>
           </div>
@@ -337,15 +354,19 @@ function generatePayslipHTML(payslip: {
               <span class="item-value">${formatNaira(tax.toFixed(2))}</span>
             </div>
             <div class="item-row">
-              <span class="item-label">Employee Pension (8% BHT)</span>
+              <span class="item-label">Loan</span>
+              <span class="item-value">${formatNaira(loan.toFixed(2))}</span>
+            </div>
+            <div class="item-row">
+              <span class="item-label">Employee Pension Contribution</span>
               <span class="item-value">${formatNaira(pension.toFixed(2))}</span>
             </div>
             <div class="item-row">
-              <span class="item-label">NHF (2.5% Basic)</span>
+              <span class="item-label">NHF</span>
               <span class="item-value">${formatNaira(nhf.toFixed(2))}</span>
             </div>
             <div class="total-row">
-              <span>Total</span>
+              <span>Total Deductions</span>
               <span>${formatNaira(totalDeductions.toFixed(2))}</span>
             </div>
           </div>
@@ -415,7 +436,19 @@ export async function POST(request: NextRequest) {
           {
             employeeName: payslip.employeeName,
             employeeEmail: payslip.employeeEmail,
+            position: payslip.position,
+            location: payslip.location,
+            daysWorked: payslip.daysWorked,
+            bankDetails: payslip.bankDetails,
             basicSalary: payslip.basicSalary,
+            housingAllowance: payslip.housingAllowance,
+            transportationAllowance: payslip.transportationAllowance,
+            otherSundryAllowance: payslip.otherSundryAllowance,
+            leaveAllowance: payslip.leaveAllowance,
+            overtime: payslip.overtime,
+            loan: payslip.loan,
+            pensionContribution: payslip.pensionContribution,
+            nhf: payslip.nhf,
             allowances: payslip.allowances,
             deductions: payslip.deductions,
             tax: payslip.tax,
